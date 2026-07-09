@@ -1,0 +1,37 @@
+# Perimeter Diagnostic — ai-usecase.aieutics.com
+
+> A per-use-case AI deployment assessment built by Aieutics. Returns a deployment posture (Deploy / Deploy with a gate / Keep it human), a verification budget band, and a named perimeter type. Fifteen graded questions across five dimensions. No maturity score. No ordinal 1-to-5 level. Client-side only — nothing leaves the browser.
+
+Content on this site is not licensed for AI model training. See /robots.txt.
+
+## What this instrument does
+
+The Perimeter Diagnostic answers one question: should this specific AI use case ship, ship behind a gate, or stay human, and at what verification cost?
+
+It operationalises a single thesis that survived adversarial stress-testing: beyond an affordable error perimeter, the cost to verify and compensate for AI errors exceeds the saving. Every verdict the diagnostic produces carries that cost on its face.
+
+## Five dimensions
+
+- **Error Profile** — shape and plausibility of errors the use case can produce
+- **Reversibility and Detection** — whether errors surface and whether they can be undone
+- **Blast Radius** — scope of who is affected when an error escapes
+- **Verification Economics** — what it costs to check and compensate for errors
+- **Posture Readiness** — whether detection mechanisms exist and are measured
+
+## Three verdicts
+
+- **Deploy** — the error economics hold
+- **Deploy with a gate** — value survives only if the gate catches what it claims to catch
+- **Keep it human** — verification and compensation consume the saving
+
+## Verification budget bands
+
+Marginal (<20%), Material (20–50%), Heavy (50–100%), Prohibitive (≥100%) of the promised generation saving, reserved for verification and compensation. Anchored to measured rework in AI-assisted knowledge work (Workday, 2026).
+
+## About
+
+Built by Alexandra Najdanovic, founder of Aieutics. Instrument design grounded in a commissioned stress-test of Philippe Meda's five-perimeters framework (Innovation Copilots, January 2026), corroborated by METR, Stanford RegLab, and MIT Sloan research on verification costs in AI-assisted work.
+
+- Aieutics: https://aieutics.com
+- Contact: alexandra@aieutics.com
+- Resources hub: https://resources.aieutics.com
